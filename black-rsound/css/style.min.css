@@ -109,7 +109,7 @@ a {
 a:focus,
 a:hover {
     color: #f2f2f2;
-    text-decoration: none!important
+    text-decoration: none !important
 }
 
 a.hover-reverse {
@@ -165,7 +165,7 @@ a.hover-reverse:hover {
 .probootstrap-mobile-menu-active .probootstrap-nav {
     text-align: left;
     position: fixed;
-    display: block!important;
+    display: block !important;
     overflow-y: auto;
     top: 0;
     right: 0;
@@ -267,7 +267,7 @@ a.hover-reverse:hover {
     margin-bottom: 10px;
     padding: 5px 0;
     display: block;
-    border-bottom: none!important
+    border-bottom: none !important
 }
 
 .probootstrap-main-nav li.probootstrap-cta {
@@ -297,7 +297,7 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-main-nav li.active a {
-    color: #bc0001
+    color: #22eaaa
 }
 
 .probootstrap-main-nav li.active a:hover {
@@ -940,13 +940,13 @@ figure:hover figcaption {
 .probootstrap-panel .panel {
     background: 0 0;
     border: none;
-    margin-bottom: 0!important;
-    margin-top: 0!important
+    margin-bottom: 0 !important;
+    margin-top: 0 !important
 }
 
 .probootstrap-panel .panel .panel-title {
-    margin: 0!important;
-    padding: 0!important
+    margin: 0 !important;
+    padding: 0 !important
 }
 
 .probootstrap-panel .panel .panel-heading {
@@ -955,8 +955,8 @@ figure:hover figcaption {
 }
 
 .probootstrap-panel .panel .panel-heading a {
-    padding-top: 10px!important;
-    padding-bottom: 15px!important;
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
     display: block;
     color: rgba(255, 255, 255, .5);
     position: relative
@@ -999,7 +999,7 @@ figure:hover figcaption {
 }
 
 .probootstrap-panel .panel .panel-body {
-    border: none!important
+    border: none !important
 }
 
 .probootstrap-video {
@@ -1247,7 +1247,7 @@ figure:hover figcaption {
 }
 
 .probootstrap-card.probootstrap-person h2 {
-    color: #fff!important
+    color: #fff !important
 }
 
 .probootstrap-card.probootstrap-person .probootstrap-card-media {
@@ -1357,7 +1357,7 @@ figure:hover figcaption {
 .probootstrap-home-search .probootstrap-field-group .probootstrap-fields select:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    outline: 0!important
+    outline: 0 !important
 }
 
 .probootstrap-home-search .probootstrap-field-group .probootstrap-fields .search-category,
@@ -1615,15 +1615,15 @@ figure:hover figcaption {
 }
 
 .probootstrap-half .btn-ghost-white {
-    border-color: rgba(255, 255, 255, .2)!important
+    border-color: rgba(255, 255, 255, .2) !important
 }
 
 .probootstrap-half .btn-ghost-white:active,
 .probootstrap-half .btn-ghost-white:focus,
 .probootstrap-half .btn-ghost-white:hover {
-    background: 0 0!important;
-    color: #fff!important;
-    border-color: #22eaaa!important
+    background: 0 0 !important;
+    color: #fff !important;
+    border-color: #22eaaa !important
 }
 
 .probootstrap-half .service-item {
@@ -1753,7 +1753,7 @@ figure:hover figcaption {
 }
 
 .probootstrap-social li a:hover {
-    text-decoration: none!important
+    text-decoration: none !important
 }
 
 .probootstrap-social li:first-child > a {
@@ -1788,7 +1788,7 @@ figure:hover figcaption {
 }
 
 .service .heading {
-    color: #fff!important
+    color: #fff !important
 }
 
 .service p:last-child {
@@ -1798,18 +1798,18 @@ figure:hover figcaption {
 .service.left-icon {
     padding: 0;
     border: none;
-    margin-bottom: 50px!important;
+    margin-bottom: 50px !important;
     display: table
 }
 
 .service.left-icon .icon,
 .service.left-icon .text {
     display: table-cell;
-    vertical-align: top!important
+    vertical-align: top !important
 }
 
 .service.left-icon .icon {
-    height: 10px!important;
+    height: 10px !important;
     width: 90px;
     position: relative;
     top: 0;
@@ -2305,12 +2305,12 @@ figure:hover figcaption {
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-] {
-    background: 0 0!important
+    background: 0 0 !important
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-] i {
     font-size: 24px;
-    background: rgba(0, 0, 0, .7)!important;
+    background: rgba(0, 0, 0, .7) !important;
     padding: 12px;
     -webkit-transition: .5s all;
     transition: .5s all
@@ -2318,7 +2318,7 @@ figure:hover figcaption {
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:focus i,
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover i {
-    background: rgba(0, 0, 0, .7)!important
+    background: rgba(0, 0, 0, .7) !important
 }
 
 .owl-theme .owl-dots {
@@ -2363,7 +2363,7 @@ figure:hover figcaption {
 @media screen and (max-width:980px) {
     .probootstrap-testimony-wrap {
         display: block;
-        text-align: center!important
+        text-align: center !important
     }
 }
 
@@ -2396,7 +2396,7 @@ figure:hover figcaption {
     }
     .probootstrap-testimony-wrap figure img {
         max-width: inherit;
-        width: 120px!important;
+        width: 120px !important;
         margin: 0 auto
     }
 }
@@ -2525,111 +2525,111 @@ figure:hover figcaption {
 }
 
 .mb0 {
-    margin-bottom: 0!important
+    margin-bottom: 0 !important
 }
 
 .mb10 {
-    margin-bottom: 10px!important
+    margin-bottom: 10px !important
 }
 
 .mb20 {
-    margin-bottom: 20px!important
+    margin-bottom: 20px !important
 }
 
 .mb30 {
-    margin-bottom: 30px!important
+    margin-bottom: 30px !important
 }
 
 .mb40 {
-    margin-bottom: 40px!important
+    margin-bottom: 40px !important
 }
 
 .mb50 {
-    margin-bottom: 50px!important
+    margin-bottom: 50px !important
 }
 
 .mb60 {
-    margin-bottom: 60px!important
+    margin-bottom: 60px !important
 }
 
 .mb70 {
-    margin-bottom: 70px!important
+    margin-bottom: 70px !important
 }
 
 .mb80 {
-    margin-bottom: 80px!important
+    margin-bottom: 80px !important
 }
 
 .mb90 {
-    margin-bottom: 90px!important
+    margin-bottom: 90px !important
 }
 
 .mb100 {
-    margin-bottom: 100px!important
+    margin-bottom: 100px !important
 }
 
 .mt0 {
-    margin-top: 0!important
+    margin-top: 0 !important
 }
 
 .mt10 {
-    margin-top: 10px!important
+    margin-top: 10px !important
 }
 
 .mt20 {
-    margin-top: 20px!important
+    margin-top: 20px !important
 }
 
 .mt30 {
-    margin-top: 30px!important
+    margin-top: 30px !important
 }
 
 .mt40 {
-    margin-top: 40px!important
+    margin-top: 40px !important
 }
 
 .mt50 {
-    margin-top: 50px!important
+    margin-top: 50px !important
 }
 
 .mt60 {
-    margin-top: 60px!important
+    margin-top: 60px !important
 }
 
 .mt70 {
-    margin-top: 70px!important
+    margin-top: 70px !important
 }
 
 .mt80 {
-    margin-top: 80px!important
+    margin-top: 80px !important
 }
 
 .mt90 {
-    margin-top: 90px!important
+    margin-top: 90px !important
 }
 
 .mt100 {
-    margin-top: 100px!important
+    margin-top: 100px !important
 }
 
 .pb0 {
-    padding-bottom: 0!important
+    padding-bottom: 0 !important
 }
 
 .probootstrap-black-color {
-    color: #000!important
+    color: #000 !important
 }
 
 .probootstrap-white-color {
-    color: #fff!important
+    color: #fff !important
 }
 
 .probootstrap-primary-color {
-    color: #22eaaa!important
+    color: #22eaaa !important
 }
 
 .probootstrap-secondary-color {
-    color: #ddf0f3!important
+    color: #ddf0f3 !important
 }
 
 @media screen and (max-width:768px) {
