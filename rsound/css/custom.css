@@ -5,3 +5,8 @@
     height: 70px;
     margin-top: -15px
 }
+
+.probootstrap-footer.probootstrap-bg a.grey_link {
+    color: rgba(255, 255, 255, .4)
+    
+}    
