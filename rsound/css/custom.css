@@ -13,3 +13,28 @@
 .red {
     color: #bc0001
 }
+
+.probootstrap-right-nav {
+right: -100px
+}
+
+
+.grey {
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.grey:hover{
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
