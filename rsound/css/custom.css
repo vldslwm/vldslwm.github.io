@@ -48,3 +48,9 @@ right: -100px
 .bottom_line{
     border-bottom: 2px solid rgba(255, 255, 255, .1);
     }
+
+.gototop.active {
+    opacity: 1;
+    visibility: visible;
+    bottom: 65px;
+}
