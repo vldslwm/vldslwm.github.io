@@ -283,7 +283,7 @@ a.hover-reverse:hover {
 
 .probootstrap-main-nav li.probootstrap-cta a:hover {
     background: #fff;
-    color: #22eaaa
+    color: #bc0001
 }
 
 .probootstrap-mobile-menu-active .probootstrap-main-nav li.probootstrap-cta {
@@ -516,7 +516,7 @@ a.hover-reverse:hover {
 
 .btn.btn-ghost.btn-ghost-white:hover {
     background: #fff;
-    color: #22eaaa
+    color: #bc0001
 }
 
 .btn.btn-ghost.btn-ghost-white:active,
@@ -572,8 +572,8 @@ a.hover-reverse:hover {
 .probootstrap-section.probootstrap-section-colored,
 .probootstrap-section.probootstrap-section-dark {
     background: #ddf0f3;
-    background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#22eaaa));
-    background: linear-gradient(to right, #ddf0f3 0, #22eaaa 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ddf0f3), to(#bc0001));
+    background: linear-gradient(to right, #ddf0f3 0, #bc0001 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$firstcolor, endColorstr=$secondcolor, GradientType=1)
 }
 
@@ -591,7 +591,7 @@ a.hover-reverse:hover {
 .probootstrap-section.probootstrap-section-colored .heading-with-icon i,
 .probootstrap-section.probootstrap-section-dark .heading-with-icon,
 .probootstrap-section.probootstrap-section-dark .heading-with-icon i {
-    color: #22eaaa
+    color: #bc0001
 }
 
 .probootstrap-section.probootstrap-section-colored p,
@@ -989,7 +989,7 @@ figure:hover figcaption {
 }
 
 .probootstrap-panel .panel .panel-heading a[aria-expanded=true] {
-    color: #22eaaa
+    color: #bc0001
 }
 
 .probootstrap-panel .panel .panel-heading a[aria-expanded=true]:after {
@@ -1090,7 +1090,7 @@ figure:hover figcaption {
 }
 
 .probootstrap-card .probootstrap-card-media.colored .svg {
-    fill: #22eaaa
+    fill: #bc0001
 }
 
 .probootstrap-card .probootstrap-card-text {
@@ -1188,7 +1188,7 @@ figure:hover figcaption {
 }
 
 .probootstrap-card.probootstrap-listing .probootstrap-card-text .probootstrap-listing-category.for-sale span {
-    background: #22EAAA
+    background: #bc0001
 }
 
 .probootstrap-card.probootstrap-listing .probootstrap-card-text .probootstrap-listing-category.for-rent span {
@@ -1203,7 +1203,7 @@ figure:hover figcaption {
 .probootstrap-card.probootstrap-listing .probootstrap-card-text .probootstrap-listing-price strong {
     font-size: 30px;
     font-weight: 300;
-    color: #22eaaa
+    color: #bc0001
 }
 
 .probootstrap-card.probootstrap-listing .probootstrap-card-extra {
@@ -1540,7 +1540,7 @@ figure:hover figcaption {
     background-repeat: no-repeat;
     -webkit-transition: .8s all ease-in-out;
     transition: .8s all ease-in-out;
-    background-color: #22eaaa
+    background-color: #bc0001
 }
 
 .probootstrap-half .text {
@@ -1904,7 +1904,7 @@ figure:hover figcaption {
 .probootstrap-form .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #22eaaa
+    border-color: #bc0001
 }
 
 .probootstrap-form textarea.form-control {
@@ -1955,7 +1955,7 @@ figure:hover figcaption {
 }
 
 .with-icon.colored i {
-    color: #22eaaa
+    color: #bc0001
 }
 
 .probootstrap-section-heading .sub-heading {
@@ -2625,7 +2625,7 @@ figure:hover figcaption {
 }
 
 .probootstrap-primary-color {
-    color: #22eaaa !important
+    color: #bc0001 !important
 }
 
 .probootstrap-secondary-color {
