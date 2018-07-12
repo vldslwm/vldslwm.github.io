@@ -54,3 +54,26 @@ right: -100px
     visibility: visible;
     bottom: 65px;
 }
+
+.bordertop-none{
+    border-top: none
+    
+}
+
+.probootstrap-cta2 {
+    border-bottom: none;
+    padding: 10px 0;
+    float: left;
+    width: 100%
+}
+
+.probootstrap-section1 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.bottom_line{
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    }
