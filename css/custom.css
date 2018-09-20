@@ -107,3 +107,11 @@ right: -100px
     top: 1px;
     width: 35px
 }
+
+.with-icon li {
+    padding: 0;
+    margin: 15px 0 15px;
+    list-style: none;
+    line-height: 24px;
+    display: table
+}
