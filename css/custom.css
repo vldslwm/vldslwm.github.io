@@ -115,3 +115,10 @@ right: -100px
     line-height: 20px;
     display: table
 }
+
+figure,
+ol,
+p,
+ul {
+    margin-bottom: 1em;
+}
