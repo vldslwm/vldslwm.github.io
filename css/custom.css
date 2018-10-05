@@ -139,7 +139,21 @@ ul {
 
 @media screen and (max-width:480px) {
     #anns {
-        background-image: url(/img/test.jpg);
+        background-image: url(/img/test1.jpg);
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    #anns {
+        background-image: url(/img/test2.jpg);
+
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #anns {
+        background-image: url(/img/test3.jpg);
 
     }
 }
