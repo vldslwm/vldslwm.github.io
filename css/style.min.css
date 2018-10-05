@@ -1989,7 +1989,7 @@ figure:hover figcaption {
     .flexslider2 .slides > li,
     .slider-height {
         height: inherit;
-        height: 500px
+        height: 500px;
     }
     .flexslider .flex-direction-nav,
     .flexslider2 .flex-direction-nav {

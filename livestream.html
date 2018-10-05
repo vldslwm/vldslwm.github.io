@@ -8,8 +8,7 @@
   License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
 -->
 <html lang="ru">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>#R_SOUND &mdash; Организация онлайн трансляций</title>
@@ -39,16 +38,24 @@
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
-</head>
+  </head>
+  <body>
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-<body>
 
-    <!-- START: header -->
+  <!-- START: header -->
+  
+  <div class="probootstrap-loader"></div>
 
-    <div class="probootstrap-loader"></div>
-
-    <header role="banner" class="probootstrap-header">
-        <div class="container">
+  <header role="banner" class="probootstrap-header">
+    <div class="container">
 
             <a href="index.html"><img src="../img/R-sound_logo1.png" alt="R_sound logo"  class="rsound-logo"></a>
 
@@ -60,9 +67,9 @@
                     <li><a href="index.html">Главная</a></li>
                     <li><a href="services.html">Мы предлагаем</a></li>
                     <li><a href="projects.html">События</a></li>
-                    <li><a href="booking.html">Букинг</a></li>
+                    <li class="active"><a href="booking.html">Букинг</a></li>
                     <li><a href="about.html">О нас</a></li>
-                    <li class="active"><a href="contact.html">Контакты</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
                 </ul>
                 <ul class="probootstrap-right-nav hidden-xs">
                     <li><a href="https://www.instagram.com/r_sound76/" target="_blank"><i class="icon-instagram2"></i></a></li>
@@ -71,8 +78,8 @@
                     <li><a href="https://www.facebook.com/76rsound/" target="_blank"><i class="icon-facebook"></i></a></li>
                     <li><a href="https://www.mixcloud.com/r_sound/" target="_blank"><i class="fab fa-mixcloud"></i></a></li>
                     <li><a href="tg://resolve?domain=r_sound"><i class="icon-telegram"></i></a></li>
+
                 </ul>
-                
                 <div class="extra-text visible-xs">
                     <a href="#" class="probootstrap-burger-menu"><i>Меню</i></a>
                     <h5>Адрес</h5>
@@ -91,36 +98,41 @@
                 </div>
             </nav>
         </div>
-    </header>
-    <!-- END: header -->
-    <section class="probootstrap-slider flexslider">
-        <ul class="slides">
-            <li style="background-image: url(img/contacts.jpg);">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="slides-text probootstrap-animate">
-                                <h2>Контакты</h2>
-                                <p>Хотите организовать трансляцию - сообщите нам об этом!</p>
-                                <div class="cntr">
-                                    <ul class="with-icon colored">
-                                        <li><i class="icon-phone2"></i><a href="tel:+79997901652">+7 999 790-16-52</a></li>
-                                        <li><i class="icon-mail"></i><a href="mailto:76r_sound@gmail.com">76r_sound@gmail.com</a>
-                                            <li><i class="icon-vk2"></i><a href="https://vk.me/r_sound76">Написать в VK</a></li>
-                                            <li><i class="icon-facebook"></i><a href="https://www.messenger.com/t/76rsound">Написать в FB</a></li>
-                                    </ul>
-                                </div>
-                                </p>
-                            </div>
+  </header>
+  <section class="page-title">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-md-12 section-heading"> -->
+          <h1>LIVESTREAM - все трансляции в одном месте</h1>
+          <p>Сегодня нет трансляций :(</p>
+        <!-- </div>
+      </div> -->
+    </div>
+  </section>
+
+  <section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+            <div class="col-md-12 probootstrap-animate">
+                <h2>Ближайшая трансляция</h2>    
+                <div class="probootstrap-card">
+                        <div class="probootstrap-card-media">
+                            <img src="img/anons_1.jpg" class="img-responsive img-border" alt="SONAR | @STATION MIR">
+                        </div>
+                        <div class="probootstrap-card-text">
+                            <h2 class="probootstrap-card-heading mb0">SONAR | @STATION MIR</h2>
+                            <p class="category">Voronezh | 06.10.2018</p>
+                            <p>Сочетая в себе визуальные комбинации и электронные ритмы, музыкальное событие SONAR станет своеобразным отражением всего того, за что любят электронную музыку. Прогрессивное звучание и актуальные сеты представят главные гости и локальные участники субботней ночи...</p>
                         </div>
                     </div>
                 </div>
-                </li>
-        </ul>
-    </section>
-    <!-- END: slider  -->
+        
+    </div>
+</div>
 
-    <footer class="probootstrap-footer probootstrap-bg">
+  </section>
+  
+<footer class="probootstrap-footer probootstrap-bg">
         <div class="container">
             <div class="row mb60">
 
@@ -150,10 +162,10 @@
                         <ul class="stack-link">
                             <li><a href="maddope.html">Mad Dope</a></li>
                             <li><a href="beatburger.html">BeatBurger</a></li>
-                           <li><a href="drazumov.html">D’Razumov</a></li>
-                           <li><a href="mischa.html">Mischa</a></li>
-                           <li><a href="marinad.html">MARINAD</a></li>
-                           <li><a href="rnechaev.html">Ruslan Nechaev</a></li>
+                            <li><a href="drazumov.html">D’Razumov</a></li>
+                            <li><a href="mischa.html">Mischa</a></li>
+                            <li><a href="marinad.html">MARINAD</a></li>
+                            <li><a href="rnechaev.html">Ruslan Nechaev</a></li>
                             <li><a href="rshevchenko.html">Roman Shevchenko</a></li>
                             <li><a href="skalkutin.html">Hellobite</a></li>
                         </ul>
@@ -186,9 +198,19 @@
         </div>
     </footer>
 
+
+
+
+
     <div class="gototop js-top">
         <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
     </div>
+
+
+
+
+
+
 
 
     <script src="js/scripts.min.js"></script>
@@ -201,6 +223,5 @@
 
     </script>
 
-</body>
-
+  </body>
 </html>
