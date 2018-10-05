@@ -137,19 +137,10 @@ ul {
 
 }
 
-@media screen and (max-width:480px) {
-    #anns {
-        background-image: url(/img/test1.jpg);
 
-    }
-}
 
-@media screen and (max-width:768px) {
-    #anns {
-        background-image: url(/img/test2.jpg);
 
-    }
-}
+
 
 @media screen and (max-width:1000px) {
     #anns {
@@ -157,3 +148,27 @@ ul {
 
     }
 }
+
+
+
+@media screen and (max-width:768px) {
+    #anns {
+        background-image: url(/img/test0.jpg);
+
+    }
+}
+
+
+/* @media screen and (max-width:480px) {
+    #anns {
+        background-image: url(/img/test0.jpg);
+
+    }
+} */
+/* 
+@media screen and (max-width:350px) {
+    #anns {
+        background-image: url(/img/test0.jpg);
+
+    }
+} */
