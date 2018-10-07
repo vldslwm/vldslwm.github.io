@@ -163,12 +163,25 @@ ul {
     font-size: 23px;
     }
 
+    #event_h2 {
+        text-align: left;
+        font-size: 36px;
+        margin-top: 10px;
+        color: #000000;
+    }
 
+    #landing_h2 {
+        margin-top: 29px;
+        font-weight: 100;
+        font-size: 25px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        }
 
-
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1300px) {
     #anns {
-        background-image: url(/img/landing/slider_landing_1.jpg);
+        background-image: url(/img/landing/slider_landing_mid_big.jpg);
 
     }
 }
@@ -177,20 +190,112 @@ ul {
 
 @media screen and (max-width:768px) {
     #anns {
-        background-image: url(/img/landing/slider_landing_1.jpg);
+        background-image: url(/img/landing/slider_landing_mid.jpg);
         }
+        .rsound-logo {
+            float: left;
+            height: 60px;
+            margin-top: -15px
+        }
+        
+        .playday-logo {
+            float: left; 
+            height: 49px;
+            margin-top: -7px;
+            margin-left: 30px;
+        }
+        
+        .med-logo {
+            display: block;
+            height: 83px !important;
+            width: auto !important;
+            margin-top: 100px;
+            margin-left: -3px;
+        }
+
+        #event_h2 {
+            text-align: left;
+            font-size: 36px;
+            margin-top: 10px;
+            color: #000000;
+        
+        }
+
     #landing_h2 {
-        font-size: 30px;
+        margin-top: 27px;
+        font-weight: 100;
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 14px;
+    }
+
+    #landing_p {
+        float: left;
+        text-align: left;
+        margin: 0;
+        max-width: 500px;
+        margin-top: 30px;
+        color: #000000;
+        font-size: 23px;
         }
+
 
 }
 
 
 @media screen and (max-width:480px) {
     #anns {
-        background-image: url(/img/landing/slider_landing_1.jpg);
+        background-image: url(/img/landing/slider_landing_mid_small.jpg);
+}
 
+    .rsound-logo {
+        float: left;
+        height: 55px;
+        margin-top: -15px
     }
+    
+    .playday-logo {
+        float: left; 
+        height: 44px;
+    margin-top: -8px;
+    margin-left: 20px;
+    }
+
+    .med-logo {
+        display: block;
+    height: 45px !important;
+    width: auto !important;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+
+    #event_h2 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #000000;
+    }
+
+    #landing_h2 {
+        margin-top: 20px;
+        font-weight: 100;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 12px;
+    }
+
+    #landing_p {
+            float: left;
+            text-align: left;
+            margin: 0;
+            max-width: 500px;
+            margin-top: 77px;
+            color: #000000;
+            font-size: 16px;
+        }
+
 }
 
 
@@ -214,15 +319,15 @@ ul {
     } */
     .med-logo {
         display: block;
-        height: 30px !important;
+        height: 35px !important;
     width: auto !important;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 0px;
     }
 
     #event_h2 {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 5px;
     color: #000000;
     }
@@ -241,22 +346,11 @@ ul {
             text-align: left;
             margin: 0;
             max-width: 500px;
-            margin-top: 19px;
+            margin-top: 60px;
             color: #000000;
             font-size: 16px;
         }
     }
-
-qqqqqqq
-    #landing_h2 {
-    margin-top: 29px;
-    font-weight: 100;
-    font-size: 25px;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    }
-
 
 
 .slides-text {
@@ -264,14 +358,6 @@ max-width: 600px;
 margin: 0;
 padding-top: 150px;
 font-size: 23px;
-}
-
-.event_h2 {
-    text-align: left;
-    font-size: 36px;
-    margin-top: 10px;
-    color: #000000;
-
 }
 
 footer div a .rsound-logo {
