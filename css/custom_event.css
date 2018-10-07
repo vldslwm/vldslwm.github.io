@@ -1,0 +1,325 @@
+/* Your custom css code goes here */
+
+.rsound-logo {
+    float: left;
+    height: 60px;
+    margin-top: -15px
+}
+
+.playday-logo {
+    float: left; 
+    height: 49px;
+    margin-top: -7px;
+    margin-left: 30px;
+}
+
+.med-logo {
+    display: block;
+    height: 83px !important;
+    width: auto !important;
+    margin-top: 100px;
+    margin-left: -3px;
+}
+
+
+.probootstrap-right-nav li a {
+    padding: 0 3px;
+}
+
+.probootstrap-footer.probootstrap-bg a.grey_link {
+    color: rgba(255, 255, 255, .4)
+    
+}    
+.red {
+    color: #bc0001
+}
+
+.probootstrap-right-nav {
+right: -120px;
+}
+
+.probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons {
+    padding: 0;
+    margin: 0px 0 6px;
+}
+
+.grey {
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.grey:hover{
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.probootstrap-cta1 {
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    padding: 50px 0;
+    float: left;
+    width: 100%
+}
+
+.bottom_line{
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    }
+
+.gototop.active {
+    opacity: 1;
+    visibility: visible;
+    bottom: 65px;
+}
+
+.bordertop-none{
+    border-top: none
+    
+}
+
+.probootstrap-cta2 {
+    border-bottom: none;
+    padding: 10px 0;
+    float: left;
+    width: 100%
+}
+
+.probootstrap-section1 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.bottom_line{
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    }
+
+.probootstrap-card.probootstrap-person {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: none;
+}
+.img-border {
+    border: none;
+    padding: 10px;
+}
+.cntr{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+.with-icon.colored i {
+    color: #bc0001 
+}
+
+.with-icon li i {
+    top: 1px;
+    font-size: 22px
+}
+
+.with-icon li > i {
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+    width: 35px
+}
+
+.with-icon li {
+    padding: 0;
+    margin: 20px 0 15px;
+    list-style: none;
+    line-height: 24px;
+    display: table
+}
+
+figure,
+ol,
+p,
+ul {
+    margin-bottom: 1.3em;
+}
+
+#anns {
+    background-image: url(/img/landing/slider_landing_1.jpg);
+
+}
+
+#landing_p {
+    float: left;
+    text-align: left;
+    margin: 0;
+    max-width: 500px;
+    margin-top: 30px;
+    color: #000000;
+    font-size: 23px;
+    }
+
+
+
+
+@media screen and (max-width:1000px) {
+    #anns {
+        background-image: url(/img/landing/slider_landing_1.jpg);
+
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    #anns {
+        background-image: url(/img/landing/slider_landing_1.jpg);
+        }
+    #landing_h2 {
+        font-size: 30px;
+        }
+
+}
+
+
+@media screen and (max-width:480px) {
+    #anns {
+        background-image: url(/img/landing/slider_landing_1.jpg);
+
+    }
+}
+
+
+
+@media screen and (max-width:350px) {
+    
+    #anns {
+        background-image: url(/img/landing/slider_landing_small.jpg);
+            }
+    /* .rsound-logo {
+        float: left;
+        height: 60px;
+        margin-top: -15px
+    }
+    
+    .playday-logo {
+        float: left; 
+        height: 49px;
+        margin-top: -7px;
+        margin-left: 30px;
+    } */
+    .med-logo {
+        display: block;
+        height: 30px !important;
+    width: auto !important;
+    margin-top: 70px;
+    margin-left: 0px;
+    }
+
+    #event_h2 {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #000000;
+    }
+
+    #landing_h2 {
+        margin-top: 27px;
+        font-weight: 100;
+        font-size: 16px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 14px;
+    }
+
+    #landing_p {
+            float: left;
+            text-align: left;
+            margin: 0;
+            max-width: 500px;
+            margin-top: 19px;
+            color: #000000;
+            font-size: 16px;
+        }
+    }
+
+qqqqqqq
+    #landing_h2 {
+    margin-top: 29px;
+    font-weight: 100;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    }
+
+
+
+.slides-text {
+max-width: 600px;
+margin: 0;
+padding-top: 150px;
+font-size: 23px;
+}
+
+.event_h2 {
+    text-align: left;
+    font-size: 36px;
+    margin-top: 10px;
+    color: #000000;
+
+}
+
+footer div a .rsound-logo {
+    float: left;
+    height: 60px;
+    margin-top: 71px;
+    margin-left: 0px;
+}
+
+footer div a .playday-logo {
+    float: left; 
+    height: 49px;
+    margin-top: 79px;
+    margin-left: 30px;
+}
+
+#small_phone {
+    font-size: 18px;
+    width: 20px;
+}
+
+.probootstrap-footer.probootstrap-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 10px;
+    position: relative;
+}
+
+.page-title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+
+.rsound-logo1 {
+    float: left;
+    height: 100px;
+    padding-right: 20px;
+}
+
+.playday-logo1 {
+    float: left; 
+    height: 49px;
+    padding-right: 20px;
+}
+.section-heading {
+    margin-bottom: 10px;
+}
