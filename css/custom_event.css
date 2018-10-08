@@ -150,7 +150,7 @@ ul {
 }
 
 #anns {
-    background-image: url(/img/landing/slider_landing_1.jpg);
+    background-image: url(../dr_spyder_2018/img/slider_landing_1.jpg);
 
 }
 
@@ -182,7 +182,7 @@ ul {
 
 @media screen and (max-width:1300px) {
     #anns {
-        background-image: url(/img/landing/slider_landing_mid_big.jpg);
+        background-image: url(../dr_spyder_2018/img/slider_landing_mid_big.jpg);
     }
 }
 
@@ -197,7 +197,7 @@ ul {
 
 @media screen and (max-width:767px) {
     #anns {
-        background-image: url(/img/landing/slider_landing_mid.jpg);
+        background-image: url(../dr_spyder_2018/img/slider_landing_mid.jpg);
         }
         .rsound-logo {
             float: left;
@@ -254,7 +254,7 @@ ul {
 
 @media screen and (max-width:480px) {
     #anns {
-        background-image: url(/img/landing/slider_landing_mid_small.jpg);
+        background-image: url(../dr_spyder_2018/img/slider_landing_mid_small.jpg);
 }
 
     .rsound-logo {
@@ -312,7 +312,7 @@ ul {
 @media screen and (max-width:350px) {
     
     #anns {
-        background-image: url(/img/landing/slider_landing_small.jpg);
+        background-image: url(../dr_spyder_2018/img/slider_landing_small.jpg);
             }
     .rsound-logo {
         float: left;
