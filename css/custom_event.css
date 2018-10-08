@@ -11,6 +11,7 @@
     height: 49px;
     margin-top: -7px;
     margin-left: 30px;
+    margin-right: 10px;
 }
 
 .med-logo {
@@ -171,7 +172,7 @@ ul {
     }
 
     #landing_h2 {
-        margin-top: 29px;
+        margin-top: 0px;
         font-weight: 100;
         font-size: 25px;
         color: #fff;
@@ -182,13 +183,19 @@ ul {
 @media screen and (max-width:1300px) {
     #anns {
         background-image: url(/img/landing/slider_landing_mid_big.jpg);
-
     }
 }
 
 
+@media screen and (max-width: 995px) {
 
-@media screen and (max-width:768px) {
+.probootstrap-main-nav li {
+    margin: 0;
+    padding: 0px 5px;
+}
+}
+
+@media screen and (max-width:767px) {
     #anns {
         background-image: url(/img/landing/slider_landing_mid.jpg);
         }
@@ -203,6 +210,7 @@ ul {
             height: 49px;
             margin-top: -7px;
             margin-left: 30px;
+            margin-right: 5px;
         }
         
         .med-logo {
@@ -260,6 +268,7 @@ ul {
         height: 44px;
     margin-top: -8px;
     margin-left: 20px;
+    margin-right: 0px;
     }
 
     .med-logo {
@@ -305,18 +314,19 @@ ul {
     #anns {
         background-image: url(/img/landing/slider_landing_small.jpg);
             }
-    /* .rsound-logo {
+    .rsound-logo {
         float: left;
-        height: 60px;
+        height: 50px;
         margin-top: -15px
     }
     
     .playday-logo {
         float: left; 
-        height: 49px;
+        height: 36px;
         margin-top: -7px;
-        margin-left: 30px;
-    } */
+        margin-left: 10px;
+        margin-right: 0px;
+    }
     .med-logo {
         display: block;
         height: 35px !important;
@@ -333,12 +343,12 @@ ul {
     }
 
     #landing_h2 {
-        margin-top: 27px;
+        margin-top: 15px;
         font-weight: 100;
-        font-size: 16px;
+        font-size: 11px;
         color: #fff;
         text-transform: uppercase;
-        letter-spacing: 14px;
+        letter-spacing: 10px;
     }
 
     #landing_p {
@@ -408,4 +418,17 @@ footer div a .playday-logo {
 }
 .section-heading {
     margin-bottom: 10px;
+}
+
+.probootstrap-nav {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+    text-align: right;
+}
+
+
+.probootstrap-main-nav {
+    margin-left: 0px;
+    padding: 0;
 }
