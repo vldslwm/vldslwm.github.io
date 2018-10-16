@@ -137,9 +137,13 @@ ul {
 
 }
 
+.slides-text p {
+    margin-top: 150px;
+}
+
 @media screen and (max-width:1000px) {
     #anns {
-        background-image: url(/img/test3.jpg);
+        background-image: url(/img/sl_big.jpg);
 
     }
 }
@@ -148,15 +152,22 @@ ul {
 
 @media screen and (max-width:768px) {
     #anns {
-        background-image: url(/img/test0.jpg);
+        background-image: url(/img/sl_sml.jpg);
 
+    }
+    .slides-text p {
+        margin-top: 300px;
     }
 }
 
 
 @media screen and (max-width:480px) {
     #anns {
-        background-image: url(/img/test0.jpg);
+        background-image: url(/img/sl_sml.jpg);
 
     }
+    .slides-text p {
+        margin-top: 150px;
+    }
+    
 }
